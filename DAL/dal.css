@@ -27,7 +27,7 @@ a:hover {
 
 /* --- To remove Last Update line ---*/
 .EXLFooterTile div.EXLFooterUpdateContainer div.EXLFooterLastUpdate {display:none;} 
-#exlidMainMenuTile div.EXLMainMenuContainer {float: left;width: 40em;}
+
 
 /*--- To remove last bar on first row of footer ---*/
 .EXLFooterTile li { float:left; text-indent:0.5em; padding-right:0.8em; border-right:1px solid #FFFFFF; }
@@ -40,41 +40,15 @@ a:hover {
 
 /* ----------------------------------------------- HEADER ----------------------------------------------- */
 
-#top-bar-links {
-  color: #707372;
-  height: 19px;
-  width: 100%;
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-#top-bar-links a {
-  font-family: ClassicGrotesque,Arial,sans-serif;
-  font-weight: bold;
-  font-size: smaller;
-}
-#top-bar-links li {
-  display: inline-block;
-  padding: 0.1em;
-  margin: 0 0 0 1em;
-}
-
-#exlidHeaderContainer {
-  
-}
 #exlidHeaderTile {
   padding: 0;
 }
 /*--- To expand the header image area --- */
 #exlidHeaderTile{width:100%;}
 .EXLSearchWrapper{clear:both;}
-#exlidMainMenuTile {display:none;}
 #exlidUserAreaTile {position:absolute;right:0;top:0;z-index:20;height:25px}
 /* .EXLSignOut is the className for the Sign In and Sign Out labels */
 #exlidUserAreaRibbon .EXLSignOut { font-weight: bold }
-
-
-
 
 #logo {
     float: left;
@@ -82,30 +56,24 @@ a:hover {
     padding: 0;
 }
 
-#header-links {
-  font-family: ClassicGrotesque,Arial,sans-serif;
-  font-weight: normal;
-  font-size: 21px;
-  letter-spacing: 1px;
+#exlidMainMenuTile {
   float: right;
-  margin: 1.4em;
-  padding: 0;
-  color: #707372;
-}
-#header-links a:link,
-#header-links a:visited  {
-  color: #707372;
-  text-decoration: none;
-  background: url("bullet-arrow.gif") no-repeat scroll 12px 1.3em rgba(0, 0, 0, 0);
-  font-size: 0.63em;
-  font-weight: bold;
-  padding: 14px 10px 13px 21px;
+  clear: right;
+  width: 49em;
+  margin: 0;
 }
 
-#header-links a:hover {
+.EXLMainMenuItem a:link,
+.EXLMainMenuItem a:visited  {
+  color: #707372;
+  text-decoration: none;
+}
+.EXLMainMenuItem a:hover {
   color: #f2ac00;
   text-decoration: none;
 }
+
+
 
 /* ----------------------------------------------- Content ----------------------------------------------- */
 #exlidHomeContainer div.EXLHomeBlockContainer1 div.EXLContentBlock2 {
